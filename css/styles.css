@@ -77,12 +77,14 @@ nav {
 }
 
 #reviews .carousel-inner {
-    padding: 150px;
     background-color: #dbacac;
     color:#f8f7f2;
     border-radius: 25px;
 }
 
+.carousel-item{
+    padding: 25px;
+}
 
 #booking{
     padding:50px;
