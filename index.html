@@ -37,14 +37,39 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="navbar-item">
-                            <a class="nav-link" href="">Home</a></li>
-                        <li class="navbar-item">
-                            <a class="nav-link" href="#contacts">Contacts</a></li>
-                        <li class="navbar-item">
-                            <a class="nav-link" href="#services">Services</a></li>
-                    </ul>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">First Visit</a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Before you arrive</a></li>
+                            <li><a class="dropdown-item" href="#">check our lookbook</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Lash Extensions</a></li>
+                                <li><a class="dropdown-item" href="#">Lash Lift</a></li>
+                                <li><a class="dropdown-item" href="#">Lash Removal</a></li>
+                                <li><a class="dropdown-item" href="#">Lash removal</a></li>
+                              </ul>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Book Now</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Membership</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">About us</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#aboutUs">Our story</a></li>
+                                <li><a class="dropdown-item" href="#contacts">Contact us</a></li>
+                                <li><a class="dropdown-item" href="#">Careers</a></li>
+                              </ul>
+                        </li>
+
+                      </ul>
                 </div>
             </div>
         </nav>
@@ -193,6 +218,27 @@
                     <label class="col-sm-2 col-form-label align-items-center">Email</label>
                     <div class="col-sm-6">
                         <input class="form-control" type="email">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label class="col-sm-2 col-form-label align-items-center">Type of service</label>
+                    <div class="col-sm-6">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Lash Extensions</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Lash Lift</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Lash Refill</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Lash removal</label>
+                        </div>
                     </div>
                 </div>
                 <div class="row mb-3">
